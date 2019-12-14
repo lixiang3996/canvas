@@ -1,0 +1,15 @@
+* {margin: 0px;padding: 0px;list-style: none;}
+.icon {width: 1em;height: 1em;vertical-align: -0.15em;fill: currentColor;overflow: hidden;}
+
+canvas {display: block;}
+.tool {position: fixed;top: 0;left: 0;}
+.tool>svg {height: 2em;width: 2em;margin: 20px;transition: 0.4s;}
+.tool>svg.active {fill: red;transform: scale(1.5);}
+.width {position: fixed;top: 111px;left: 2px;}
+.width>li {margin: 20px;transition: 0.4s;}
+.width>li.active {transform: scale(1.5);}
+#colors{
+    position: fixed;
+    top: 81px;
+    left: 10px;
+}

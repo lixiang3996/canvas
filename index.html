@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>画板</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <canvas id="a"></canvas>
+    <div class="tool">
+        <svg class="icon active" id="pen">
+            <use xlink:href="#icon-pencil"></use>
+        </svg>
+        <svg class="icon" id="eraser">
+            <use xlink:href="#icon-eraser"></use>
+        </svg>
+        <svg class="icon" id="clear">
+            <use xlink:href="#icon-clear"></use>
+        </svg>
+        <svg class="icon" id="download">
+            <use xlink:href="#icon-Addtodownload"></use>
+        </svg>
+    </div>
+    <input type="color" id="colors">
+    <ol class="width">
+        <li id="px3" class="px3 active">3px</li>
+        <li id="px5" class="px5">5px</li>
+        <li id="px10" class="px10">10px</li>
+
+    </ol>
+    <script src="main.js"></script>
+    <script src="//at.alicdn.com/t/font_1124463_54yjgwm7la.js"></script>
+</body>
+
+</html>
